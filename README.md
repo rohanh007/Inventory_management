@@ -8,3 +8,11 @@
 
 
 -In this web app I use Nodejs,expressJs, MongoDB, Ejs Templates, HTML, CSS 
+
+
+## Server run command
+
+$ npm install (to install server-side dependencies)
+
+$ node app.js (to start the server)
+
