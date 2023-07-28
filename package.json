@@ -1,0 +1,19 @@
+{
+  "name": "product_crud_opertion",
+  "version": "1.0.0",
+  "description": "-In this repository, I have created CRUD operation sites using Nodejs as backend with Nosql database.",
+  "main": "app.js",
+  "dependencies": {
+        "ejs": "^3.1.6",
+        "express": "^4.17.3",
+        "mongoose": "^6.2.10",
+        "morgan": "^1.10.0",
+        "nodemon": "^2.0.15"
+      },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rohan",
+  "license": "ISC"
+}

@@ -1,0 +1,26 @@
+<html lang="en">
+<%- include("./partials/head.ejs") %>
+
+<body>
+  <%- include("./partials/nav.ejs") %>
+
+  <h2>Edit-Product</h2>
+
+  <div class="create-products content">
+    <form action="/edit/<%= user.id %>" method="POST">
+      <label for="name">ProductName:</label>
+      <input type="text" value="<%= user.name %>" id="title" name="name" required>
+      <label for="Price">Price:</label>
+      <input type="number" value="<%= user.price %>"  id="snippet" name="price" required>
+      <label for="description">Description:</label>
+      <input type="text" value="<%= user.description %>"  name="description" id="address">
+      <label for="quantity">Quantity:</label>
+      <input type="number" value="<%= user.quantity %>"  name="quantity" id="number">
+
+      <button type="submit">Update</button>
+    </form>
+  </div>
+
+  <%- include("./partials/footer.ejs") %>
+</body>
+</html>
